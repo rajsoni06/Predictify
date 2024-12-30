@@ -1,6 +1,4 @@
-# AI Customer Analyzer
-
-## Repo Structure
+## AI-Powered Insights Engine
 
 ```text
 .
@@ -8,36 +6,41 @@
 │   ├── github-readme-content                 # Contains GitHub Readme Content.
 │   └── project-documentations                # Contains Project-related Documents.
 ├── research                              # Contains Research files
-│   ├── management-panel-template             # Template of Management System in HTML/CSS
-│   ├── test-images-monitoring-system         # Monitoring System that can be tested with images instead of Camera.
-│   ├── database-structure.txt                # Database Structure
-│   └── google-gtts.py                        # Text to Speech Python Script File
+│   ├── employee-performance-dataset          # Sample Agile-based Employee Performance Dataset.
+│   ├── velocity-prediction-analysis          # Research and Analysis on Velocity Prediction.
+│   ├── database-schema.txt                   # Database Schema for the Project.
+│   └── data-preprocessing-scripts.py         # Scripts for Preprocessing Data.
 ├── source                                # Contains Source Code (Main Project Folder)
-│   ├── 0-resources                           # Contains resources: database, requirements.yml
-│   ├── 1-monitoring-system                   # Contains Monitoring System Project
-│   └── 1-management-system                   # Contains Management System Project
+│   ├── 0-resources                           # Contains resources: dataset, requirements.txt
+│   ├── 1-ml-model                             # Contains Machine Learning Model Code.
+│   └── 2-frontend                             # Contains Frontend Code for Visualization.
 ├── LICENCE                               # Licence File.
 └── README.MD                             # Readme file.
 ```
 
 ## Introduction
 
-AI Customer Analyzer is a computer vision and natural language processing (NLP)-based artificial intelligence technology for advanced customer analysis. This innovative prototype analyzes customer faces in real-time to predict their age, gender, emotion, and race.
+The AI-Powered Insights Engine is a robust solution designed to analyze historical employee performance data, uncover key trends, and predict future performance metrics. This project empowers businesses to make data-driven decisions to enhance productivity and team efficiency.
 
-This prototype contains an NLP sentiment analyzer to analyze the conversations between employees and customers through
-audio processing technology that can predict sentiments on their vocals, such as negative, positive, and neutral; now, it can only work with English. Moreover, this prototype has functionalities such as counting customers and detecting whether they wear face masks; if customers wear a face mask, the system only counts them. It won't send the face to the computer vision model to process their facial attributes.
-
-The primary idea of this project is to build an artificial intelligence system that can control the entire shopping mall and analyze customers' interests to increase productivity and sales rate.
+## Features
+Data Analysis: Identify performance trends, such as productivity drops or consistent improvements, using historical Agile sprint data.
+Prediction: Forecast individual employee performance and team velocity for upcoming months.
+API Integration: Expose the AI model as an API to accept input data and return predictions or insights.
+Visualization: Frontend dashboard to display trends and predictions with interactive charts and graphs.
 
 ![Banner Image](docs/github-readme-content/0-banner-image.jpg)
 
-The "AI Customer Analyzer" system is divided into two parts: **Monitoring System** and **Management System**. The Monitoring System is the AI-powered part that captures and predicts customer information in real time. It leverages computer vision and artificial intelligence technology to analyze customers' faces and provide insights such as age, gender, emotion, race, and sentiment analysis. This system automatically collects data and sends it to the Management System for further processing.
+## Technologies Used
+Machine Learning Frameworks: TensorFlow.js, PyTorch, or Scikit-learn.
+Database: MySQL for data management.
+API Integration: Custom-built API for data communication.
+Frontend: Web-based visualization for insights presentation.
 
-The Management System is part of the system administrators use to analyze the data collected by the Monitoring System. It provides an easy-to-use interface that allows administrators to access real-time data insights and trends about their customer base. The Management System enables retailers to understand their customers better and make data-driven decisions to improve customer experience and drive revenue growth.
-
-The "AI Customer Analyzer" system provides an end-to-end solution for retailers to gain real-time insights into their customer base. The Monitoring System captures and predicts customer information, while the Management System provides a user-friendly interface for administrators to analyze and act upon the data collected. With this powerful combination of technologies, retailers can take their customer analysis to the next level and gain a competitive advantage in the retail industry.
-
-## System Features
+## How It Works
+Dataset: Utilizes Agile Sprint-based employee performance data, including story points, as input.
+AI Model: Processes historical data to identify patterns and predict future performance.
+API Endpoint: Exposes the AI model to accept data and return actionable insights.
+Frontend Visualization: Displays trends and predictions for better decision-making.
 
 ### Monitoring System Features
 
@@ -69,9 +72,10 @@ The following architecture diagram explains how this AI Customer Analyzer functi
 
 ![Architecture Diagram](docs/github-readme-content/1-architecture-diagram.png)
 
-### System Flow Diagram
-
-The following system flow diagram explains how the AI Customer Analyzer system flows to analyze customer data and generate insights; it goes through various components to analyze the data using computer vision algorithms and natural language processing techniques then it produces insights data that help businesses understand customer behavior and preferences.
+## Usage
+Analyze historical employee performance data for trend identification.
+Predict future productivity metrics to optimize team performance.
+Visualize data-driven insights in an easy-to-understand format.
 
 ![Architecture Diagram](docs/github-readme-content/2-system-flow-digram.png)
 
@@ -341,34 +345,6 @@ The management system can be opened using a web browser; it is based on where it
 
 This section shows demos of the projects on the monitoring and management systems; some screenshots and demo videos of the project are given below.
 
-### 01 Monitoring System
-
-https://user-images.githubusercontent.com/45822509/228007285-30631366-27a3-487d-b397-f64b9c43128f.mp4
-
-### 02 Monitoring System with Images (Testing)
-
-https://user-images.githubusercontent.com/45822509/228018476-1850c169-99a1-4a7a-888a-409fe436ce6a.mp4
-
-### 03 Audio Processing (Monitoring System)
-
-https://user-images.githubusercontent.com/45822509/228026260-51818429-ebc6-44a1-97a4-3b8843b1e0e7.mp4
-
-#### Output Monitoring System
-
-![Demo Image 1](docs/github-readme-content/7-demo-image-1.jpg)
-
-![Demo Image 2](docs/github-readme-content/8-demo-image-2.jpg)
-
-#### Output Monitoring System with Images (Testing)
-
-![Demo Image 3](docs/github-readme-content/10-demo-image-4.jpg)
-
-![Demo Image 5](docs/github-readme-content/11-demo-image-5.jpg)
-
-![Demo Image 6](docs/github-readme-content/12-demo-image-6.jpg)
-
-### Management System
-
 #### Login Page
 
 #### Management System Credentials
@@ -386,10 +362,6 @@ https://user-images.githubusercontent.com/45822509/228026260-51818429-ebc6-44a1-
 
 #### Vision Data Page
 
-![Vision Data Page 1](docs/github-readme-content/16-video-data-page.jpg)
-
-![Vision Data Page 2](docs/github-readme-content/17-video-data-page.jpg)
-
 #### Audio Data Page
 
 ![Vision Data Page 1](docs/github-readme-content/18-audio-data-page.jpg)
@@ -397,21 +369,3 @@ https://user-images.githubusercontent.com/45822509/228026260-51818429-ebc6-44a1-
 #### Settings
 
 ![Vision Data Page 1](docs/github-readme-content/19-settings-page.jpg)
-
-# Contact
-
-## 🌐 Website:
-[![Visit](https://img.shields.io/badge/Visit%3A%20www.mpowerr.com-%23007ACC?style=flat&logo=google-chrome&logoColor=white&labelWidth=200)](https://www.mpowerr.com)
-
----
-
-## 📱 Social Media:
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/mpowerr-info)
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/mpowerr.info)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mpowerr.info)
-[![X (Twitter)](https://img.shields.io/badge/X-%231DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/MpowerrInfo)
-[![TikTok](https://img.shields.io/badge/TikTok-%23000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@mpowerr.info)
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@mpowerrinfo)
-
----
