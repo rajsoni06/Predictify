@@ -1,11 +1,11 @@
 '''
 
- * Date:            25-02-2023
- * Organization:    Deep11
- * Author:          Gunarakulan Gunaretnam
- * Author Email:    gunarakulan@gmail.com
- * Author Likedin:  https://www.linkedin.com/in/gunarakulangunaretnam/
- * Author GitHub:   https://github.com/gunarakulangunaretnam 
+ * Date:            2024-12-30
+ * Organization:    AI Customer Analyzer
+ * Author:          Raj Anand Soni
+ * Author Email:    sonirajanand0606@gmail.com
+ * Author Likedin:  https://www.linkedin.com/in/raj-anand-soni-037541212 
+ * Author GitHub:   https://github.com/rajsoni06
 
   Source Info
   -----------
